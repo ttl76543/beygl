@@ -1,0 +1,6 @@
+{
+  "bagels.components.LanguageSelection.Header.title": "Select Language",
+  "bagels.components.ItemPicker.Header.title": "TOTAL BAGELS: {total}",
+  "bagels.components.Delivery.Header.title": "Delivery Options",
+  "bagels.components.Footer.button": "Next"
+}

@@ -1,0 +1,21 @@
+.delivery {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+
+  .delivery-options {
+    display: flex;
+    padding: 1rem 0;
+  }
+
+  .btn-selection {
+    position: relative;
+    justify-content: center;
+    flex-grow: 1;
+
+    &.active {
+      background: rgba(255,255,255,.7);
+      color: #222;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+$primary-font-color: #fff;
+
+.btn {
+  font-size: 1.2rem;
+  color: $primary-font-color;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.btn-selection {
+  display: inline-block;
+  height: 60px;
+  background: rgba(255,255,255,.3);
+  vertical-align: top;
+  border: none;
+  font-size: 20px;
+  color: $primary-font-color;
+  margin: 1rem 0;
+
+  &.btn-full {
+    display: block;
+    width: 100%;
+    min-height: 60px;
+    height: auto;
+    padding: 1rem;
+  }
+
+}

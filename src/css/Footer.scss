@@ -1,0 +1,14 @@
+.footer {
+  position: relative;
+  align-self: flex-end;
+  display: flex;
+  width: 100%;
+}
+
+.footer-btn {
+  height: 100%;
+  flex: 1;
+  border: none;
+  padding: 1rem;
+  background: rgba(255,255,255,.2);
+}

@@ -1,0 +1,35 @@
+$primary-font-color: #fff;
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Archivo', sans-serif;
+}
+
+html, body, #root {
+  height: 100%;
+  box-sizing: border-box;
+  background: #4e96b7;
+  background: -moz-linear-gradient(top, #4e96b7 0%, #86c5bb 100%);
+  background: -webkit-linear-gradient(top, #4e96b7 0%,#86c5bb 100%);
+  background: linear-gradient(to bottom, #4e96b7 0%,#86c5bb 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e96b7', endColorstr='#86c5bb',GradientType=0 );
+}
+
+#root > [data-reactroot] { height: 100% }
+
+.App {
+  height: 100%;
+  color: $primary-font-color;
+}
+
+// view title
+.view-title-text {
+  text-transform: uppercase;
+}
+
+// Material Icons
+.material-icons {
+  color: $primary-font-color;
+}
